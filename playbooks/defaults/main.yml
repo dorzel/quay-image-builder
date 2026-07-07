@@ -23,6 +23,7 @@ ocp_ver: "4.11" # Overridden in the packer build
 
 dev_uri: "https://developers.redhat.com/content-gateway/file/pub/openshift-v4/clients"
 mirror_uri: "https://mirror.openshift.com/pub/openshift-v4/x86_64/clients"
+cgw_uri: "https://mirror.openshift.com/pub/cgw"
 
 metadata_dir: "/home/ec2-user/oc-mirror-workspace/results/"
 
