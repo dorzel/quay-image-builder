@@ -53,7 +53,7 @@
         - "{{ dev_uri }}/mirror-registry/latest/mirror-registry.tar.gz"
         - "{{ mirror_uri }}/ocp/{{ ocp_max_ver }}/openshift-install-linux-{{ ocp_max_ver }}.tar.gz"
         - "{{ mirror_uri }}/ocp/{{ ocp_max_ver }}/openshift-client-linux-{{ ocp_max_ver }}.tar.gz"
-        - "{{ cgw_uri }}/oc-mirror/oc-mirror.tar.gz"
+        - "{{ cgw_uri }}/oc-mirror/latest/oc-mirror-rhel9-linux-amd64.tar.gz"
         - "{{ mirror_uri }}/pipeline/latest/tkn-linux-amd64.tar.gz"
 
       # Separate task because this doesn't come as an archive
@@ -83,7 +83,7 @@
         - "{{ dev_uri }}/mirror-registry/latest/mirror-registry.tar.gz"
         - "{{ mirror_uri }}/ocp/{{ ocp_max_ver }}/openshift-install-linux-{{ ocp_max_ver }}.tar.gz"
         - "{{ mirror_uri }}/ocp/{{ ocp_max_ver }}/openshift-client-linux-{{ ocp_max_ver }}.tar.gz"
-        - "{{ cgw_uri }}/oc-mirror/oc-mirror.tar.gz"
+        - "{{ cgw_uri }}/oc-mirror/latest/oc-mirror-rhel9-linux-amd64.tar.gz"
         - "{{ mirror_uri }}/pipeline/latest/tkn-linux-amd64.tar.gz"
 
     - name: Generate oc bash completion file
